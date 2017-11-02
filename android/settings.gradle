@@ -1,0 +1,3 @@
+rootProject.name = 'WsRocketSeat'
+
+include ':app'
