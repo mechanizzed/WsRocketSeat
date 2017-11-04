@@ -31,7 +31,7 @@ export default class Search extends React.Component{
     render(){
         return(
             <View style={styles.container}>
-                <View>
+                <View style={styles.inputView}>
                     <TextInput
                         style={styles.input}
                         placeholder="Buscar filmes..."
@@ -50,7 +50,6 @@ export default class Search extends React.Component{
                             movie={this.state.movie}
                         />
                     }
-
                 </View>
             </View>
         );

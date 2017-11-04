@@ -5,22 +5,19 @@ const styles = StyleSheet.create({
     
     container:{
         flex: 1,
-        padding: 20
+        padding: 20,
+        backgroundColor: '#fff',
+        marginTop: 28
     },
-
-    header:{
-        padding: 10,
-        backgroundColor: '#f2f2f2',
-        borderColor: '#d4d4d4'
+    inputView:{
+        marginTop: 1,
     },
     input:{
-        alignSelf: 'stretch',
-        borderColor: '#f2f2f2',
+        borderColor: '#FFF',
         borderRadius: 3,
-        marginTop: 20,
         fontSize: 16,
-        paddingHorizontal: 20,
-        backgroundColor: '#fff'
+        padding: 15,
+        backgroundColor: '#e6e9ed'
     },
     loading:{
         marginTop: 20
@@ -50,7 +47,7 @@ const styles = StyleSheet.create({
         lineHeight: 20,
       },
       button: {
-        backgroundColor: '#069',
+        backgroundColor: '#179CAB',
         alignSelf: 'stretch',
         height: 30,
         borderRadius: 3,
