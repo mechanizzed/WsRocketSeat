@@ -11,20 +11,17 @@ const App = TabNavigator({
 	Bookmark: {screen: Bookmark},
 },{
 	tabBarPosition: 'bottom',
-	animationEnabled: true,
 	tabBarOptions:{
-		showIcon: true,
-		activeTintColor: '#FFF',
 		activeBackgroundColor: '#179CAB',
-		inactiveTintColor: "#179CAB",
+		activeTintColor: '#888',
+		inactiveTintColor: "#bbb",
 		labelStyle:{
 			fontSize: 13,
 			fontWeight: 'bold',
 			paddingBottom: 13
 		},
 		style:{
-			backgroundColor: "#e6e9ed",
-			borderTopColor: "#e6e9ed"
+			backgroundColor: "#e6e9ed"
 		}
 	}
 });
